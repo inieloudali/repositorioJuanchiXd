@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header img {
+    width: 5vw;
+    height: 5vh;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.principal {
+    background-image: url(imagenes/chabonBailandoXd.png);
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: white;
+    gap: 5vh;
+    align-items: left;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.principal button {
+    width: 10vw;
+    height: 5vh;
+}
+
+.seccion2Xd {
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagenes/imgFondoXd.png);
+    text-align: center;
+    padding-top: 5vh;
+    gap: 5vh;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque img {
+    height: 20vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    background-color: black;
+    color: white;
+    gap: 5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+footer section {
+    width: 15vw;
+}
+
+footer img {
+    height: 3vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
